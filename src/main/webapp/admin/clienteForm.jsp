@@ -1,5 +1,8 @@
 <%@ page import="com.jamis.salon.model.Cliente" %>
 <%@ include file="../includes/header.jsp" %>
+
+
+
 <div class="admin-container">
     <h2><% if (request.getAttribute("cliente") == null) { %>Novo Cliente<% } else { %>Editar Cliente<% } %></h2>
     <% if (request.getAttribute("erro") != null) { %>

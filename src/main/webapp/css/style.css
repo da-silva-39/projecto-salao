@@ -38,6 +38,8 @@ header {
     font-weight: 300;
 }
 
+
+
 nav ul {
     display: flex;
     list-style: none;
@@ -1160,4 +1162,25 @@ footer {
     .tour-item img {
         height: 200px;
     }
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo-img {
+    height: 50px;          /* Ajuste conforme o tamanho da sua imagem */
+    width: auto;
+}
+
+.logo-text h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.logo-text p {
+    margin: 0;
+    font-size: 0.8rem;
 }
